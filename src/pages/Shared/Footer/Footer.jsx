@@ -2,8 +2,8 @@ import flogo from "../../../assets/footerlogo.png";
 import moment from "moment";
 const Footer = () => {
   return (
-    <>
-      <div className="grid md:grid-cols-4 gap-6 w-full md:px-20 p-4">
+    <div className="bg-[#F3F3F3] pt-16">
+      <div className="grid md:grid-cols-4 gap-6 w-full md:px-20 p-4 ">
         <div className="space-y-4">
           <div className="flex items-center gap-1 ">
             <img src={flogo} alt="" />
@@ -90,7 +90,7 @@ const Footer = () => {
           House Ltd
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

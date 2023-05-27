@@ -21,7 +21,7 @@ const ExpDoctor = () => {
         {/* Card 1 */}
         <div className="p-4 border rounded-md">
           <img
-            className="w-full h-64 bg-slate-300 rounded-md"
+            className="w-full h-fit md:h-72 bg-slate-300 rounded-md"
             src={doc1}
             alt=""
           />
@@ -57,7 +57,7 @@ const ExpDoctor = () => {
         {/* Card 2 */}
         <div className="p-4 border rounded-md">
           <img
-            className="w-full h-64 bg-slate-300 rounded-md"
+            className="w-full h-fit md:h-72 bg-slate-300 rounded-md"
             src={doc2}
             alt=""
           />
@@ -93,7 +93,7 @@ const ExpDoctor = () => {
         {/* Card 3 */}
         <div className="p-4 border rounded-md">
           <img
-            className="w-full h-64 bg-slate-300 rounded-md"
+            className="w-full h-fit md:h-72 bg-slate-300 rounded-md"
             src={doc3}
             alt=""
           />
