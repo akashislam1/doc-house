@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Source Sans 3", sans-serif;
+  }
+}
+
+.color-primary {
+  @apply text-[#F7A582];
+}
+.primary-btn {
+  @apply text-white bg-[#F7A582] py-2 px-5 rounded-md hover:bg-white hover:text-black duration-500 border border-[#F7A582];
+}
+.secondary-btn {
+  @apply text-[#F7A582] font-semibold bg-white py-2 px-5 rounded-md hover:bg-[#F7A582] hover:text-white duration-500 border border-[#F7A582];
+}
+.tab-bg {
+  @apply bg-[#F7A582];
+}
+
+.contact-card {
+  @apply bg-[#07332F] p-10 rounded-md text-white flex justify-center gap-4 hover:bg-[#F7A582] duration-500;
+}
